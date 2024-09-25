@@ -3,8 +3,8 @@ set -e
 BIND_ADDRESS="0.0.0.0"
 PUBLIC_PATH="public"
 LOG_DIR="."
-DATASTORE_LOCATION="/data"
-FILESTORE_DIRECTORY="/data"
+DATASTORE_LOCATION="/velociraptor"
+FILESTORE_DIRECTORY="/velociraptor"
 CLIENT_DIR="/velociraptor/clients"
 
 # Move binaries into place
